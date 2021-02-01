@@ -81,3 +81,13 @@ section{ display: flex;  }
 .rightside button:hover{
       background: linear-gradient(57deg, #1E4D92, #00C6A7 );   
 }
+
+.colorchange{
+	animation:  colorchangethapa 1s infinite;
+}
+
+@keyframes colorchangethapa{
+	0%{color: red;}
+	25%{color:#bf55ec; ;}
+	50%{ color: white; }
+	100%{ color:#bf55ec; }
