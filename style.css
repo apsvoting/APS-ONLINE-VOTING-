@@ -83,10 +83,10 @@ section{ display: flex;  }
 }
 
 .colorchange{
-	animation:  colorchangethapa 1s infinite;
-}
+	animation:  colorchange 1s infinite;
 
-@keyframes colorchangethapa{
+
+@keyframes colorchange{
 	0%{color: red;}
 	25%{color:#bf55ec; ;}
 	50%{ color: white; }
